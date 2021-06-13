@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <link rel=stylesheet href="style.css"> 
+</head>
+<body>
+
+  <ul id="top_menu"> 
+    <li><a href="index.html"> Accueil </a></li>
+    <li><a href="Page_A_Propos.html">À propos</a></li>
+    <li><a href="page_competences.html">Mes compétences</a></li>
+    <li><a href="page_portfolio.html">Mes projets</a></li>
+    </ul>
+  
+    <div id="portfolio"> <h1 id="portfoliotitre" contenteditable spellcheck="false"> Portfolio </h1> </div>
+
+  <div class="horizonbiere"> <div id="textebiere"> <h1 class="titrebiere"> Design de bière </h1> <p class="text"> 
+    Ce design de bière a été le premier exercice d’infographie
+ que j’ai dû réaliser à la formation des Métiers du Multimédia 
+et de l’Internet: La consigne était simple: réaliser l’étiquette
+de devant de derrière d’une bière. J’ai eu carte blanche pour 
+le design. J’ai choisi de m’inspirer de la célèbre musique 
+«Cherry Bomb» car je trouvais le nom impactant et amusant. 
+Une biere avec le même nom m’a aussi inspirée. Ce design de bière a été réalisé avec l'application de la Suite Adobe Photoshop. J'ai pu m'entrainer à réaliser des masques de fusion et de la typographie. J'ai choisi majoritairement les couleurs noir et rose car ce sont des couleurs qui interpellent dans un rayon de supermarché et qui s'associent bien ensemble. Ce qui m'a été le plus compliqué à réaliser a été le derrière de la bouteille car je ne savais pas quel design poser.
+</p> 
+   
+    <div class="horizonbiere2">
+      <ul class="horizonliste"> 
+        <li> <img src="photobiereavant.png" id="vignettephotobiereavant" onclick="imgSlider('photobiereavant.png')"> </li>
+        <li> <img src="photobierederriere.png" id="vignettephotobierederriere" onclick="imgSlider('photobierederriere.png')"> </li> 
+      </ul>
+      </div>
+
+  </div>
+      
+    <div class="blockbiereavant"> 
+    <img src="photobiereavant.png" class="photobiere"> </div>
+   
+    </div>
+
+     <script type="text/javascript"> 
+      function imgSlider(anything) {
+        document.querySelector('.photobiere').src = anything;
+      }
+      </script> 
+
+<div id="blockbouton"> 
+    <a href="page_infographie2.html"> <input type="submit" id="boutonpage" value="En voir plus ?" required> </a>
+  </div>
+
+  
+</body>
+</html>

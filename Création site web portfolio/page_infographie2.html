@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title> Infographie </title>
+  <link rel=stylesheet href="style.css">
+
+</head>
+
+<body>
+  <ul id="top_menu"> 
+    <li><a href="index.html"> Accueil </a></li>
+    <li><a href="Page_A_Propos.html">À propos</a></li>
+    <li><a href="page_competences.html">Mes compétences</a></li>
+    <li><a href="page_portfolio.html">Mes projets</a></li>
+    </ul>
+
+<div id="portfolio"> <h1 id="portfoliotitre" contenteditable spellcheck="false"> Portfolio </h1> </div>
+
+<div class="horizonbiere"> <div id="textebiere"> <h1 class="titrebiere"> Design à l'image des champignons de Mario  </h1> <p class="text"> 
+Ce design de bière a été le deuxième exercice d’infographie 
+auquel j’ai faire affaire à la formation des Métiers du Multimédia
+et l’Internet. La consigne était de réaliser un personne à l’image
+du champignon de la saga Mario. Le personnage n’était pas imposé, 
+mais le logiciel l’était: Illustrator. J’ai choisi de réaliser les
+personnages Buzz l’Éclair, Pucca et Miaouss. Le personnage qui a été le compliqué à réaliser a été celui de Buzz l'Éclair car il possède beaucoup de détails. Le champignon qui a été le plus rapide à réaliser est celui de Pucca, car il possède un design simple.
+
+</p> 
+
+<div class="horizonchampignon2">
+  <ul class="horizonliste"> 
+    <li> <img src="photochampignonbuzz.png" id="vignettephotochampignon" onclick="imgSlider('photochampignonbuzz.png')"> </li>
+    <li> <img src="photochampignonpucca.png" id="vignettephotochampignon" onclick="imgSlider('photochampignonpucca.png')"> </li> 
+    <li> <img src="photochampignonmiaouss.png" id="vignettephotochampignon" onclick="imgSlider('photochampignonmiaouss.png')"> </li> 
+  </ul>
+  </div>
+
+</div>
+  
+<div class="blockbuzz"> 
+<img src="photochampignonbuzz.png" class="photochampignon"> </div>
+
+</div>
+
+<script type="text/javascript"> 
+  function imgSlider(anything) {
+    document.querySelector('.photochampignon').src = anything;
+  }
+  </script> 
+
+</body>
+</html>
